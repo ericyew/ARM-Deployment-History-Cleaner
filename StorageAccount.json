@@ -68,6 +68,7 @@
         "tier": "[variables('storageAccount').sku.tier]"
       },
       "properties": {
+        "supportsHttpsTrafficOnly": true,
         "encryption": {
           "keySource": "Microsoft.Storage",
           "services": {
